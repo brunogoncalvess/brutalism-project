@@ -1,5 +1,9 @@
+@import '../../../styles.scss';
+
 input {
-  // background-color: $secondary-color;
-  // background-color: tomato;
-  background-color: var(--primary);
+  background-color: $secondary-color;
+}
+
+input:invalid {
+  background-color: tomato;
 }

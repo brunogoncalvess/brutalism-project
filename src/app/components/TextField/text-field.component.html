@@ -1,1 +1,6 @@
-<input type="text" placeholder="(placeholder)" />
+<input 
+  type="text" 
+  placeholder="placeholder" 
+  pattern="\w{2,4}"
+  (change)="logField($event)"
+/>

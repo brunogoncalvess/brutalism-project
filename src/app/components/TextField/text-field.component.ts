@@ -8,7 +8,10 @@ import { Component } from "@angular/core";
 })
 
 export class TextField {
-  // constructor(props: any) {
-    // console.log("TEXT-FIELD PROPS", props)
-  // }
+  
+
+  logField(input: any): void {
+    console.log("validity:: ", input.target.validity)
+    console.log("value:: ", input.target.value)
+  }
 }
